@@ -66,15 +66,9 @@ void Records::decrementAmount(){
     --amount;
 }
 
-//bool Records::operator<(const Records &a) const{
-//    return (price < a.price);
-//}
-
 int Shop::shopID = 0;
 
 Shop::Shop(){}
-
-//Shop::~Shop(){}
 
 Shop::Shop(std::string shopName, std::string address){
     this->shoppingID = ++shopID;
